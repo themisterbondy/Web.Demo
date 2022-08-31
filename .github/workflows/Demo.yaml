@@ -11,4 +11,7 @@ jobs:
     - uses: actions/setup-dotnet@v2
       with:
         dotnet-version: '6.x.x' # SDK Version to use; x will use the latest version of the 3.1 channel
-    - run: dotnet build Web.Demo.csproj
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Relsease
+      run: dotnet build Web.Demo.csproj--configuration Release --no-restore
