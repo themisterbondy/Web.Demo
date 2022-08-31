@@ -23,5 +23,5 @@ jobs:
       uses: actions/upload-artifact@v2.2.2
       with:
         name: website
-        path: Web.Demo/website/**
+        path: /home/runner/work/Web.Demo/Web.Demo/website/**
         if-no-files-found: error
