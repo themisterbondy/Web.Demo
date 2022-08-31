@@ -1,14 +1,14 @@
 name : Demo
 
-on: push
+on: workflow_dispatch
 
 jobs:
   build:
   runs-on: ubuntu-latest
-  steps:
-  - run: echo OI TATA
-  - uses: actions/checkout@v3
-  - uses: actions/setup-dotnet@v2
-    with:
-      dotnet-version: '6.x.x' # SDK Version to use; x will use the latest version of the 3.1 channel
-  - run: dotnet build Web.Demo.csproj
+    steps:
+    - run: echo OI TATA
+    - uses: actions/checkout@v3
+    - uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '6.x.x' # SDK Version to use; x will use the latest version of the 3.1 channel
+    - run: dotnet build Web.Demo.csproj
