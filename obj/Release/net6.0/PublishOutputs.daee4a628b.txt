@@ -1,0 +1,11 @@
+/home/themisterbondy/projects/Web.Demo/website/Web.Demo
+/home/themisterbondy/projects/Web.Demo/website/appsettings.Development.json
+/home/themisterbondy/projects/Web.Demo/website/appsettings.json
+/home/themisterbondy/projects/Web.Demo/website/Web.Demo.dll
+/home/themisterbondy/projects/Web.Demo/website/Web.Demo.deps.json
+/home/themisterbondy/projects/Web.Demo/website/Web.Demo.runtimeconfig.json
+/home/themisterbondy/projects/Web.Demo/website/Web.Demo.pdb
+/home/themisterbondy/projects/Web.Demo/website/Microsoft.OpenApi.dll
+/home/themisterbondy/projects/Web.Demo/website/Swashbuckle.AspNetCore.Swagger.dll
+/home/themisterbondy/projects/Web.Demo/website/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/themisterbondy/projects/Web.Demo/website/Swashbuckle.AspNetCore.SwaggerUI.dll
