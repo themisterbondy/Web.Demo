@@ -18,7 +18,7 @@ jobs:
     - name: Publish
       run: dotnet publish Demo3/Web.Demo.csproj -c Release -o release — nologo
     - name: Upload Build Artifact
-      uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v2
         with:
         name: Application_Artifact
         path: /home/runner/work/Web.Demo/Demo3/release/
