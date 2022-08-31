@@ -14,4 +14,4 @@ jobs:
     - name: Install dependencies
       run: dotnet restore
     - name: Relsease
-      run: dotnet build Web.Demo.csproj--configuration Release --no-restore
+      run: dotnet build Web.Demo.csproj --configuration Release --no-restore
