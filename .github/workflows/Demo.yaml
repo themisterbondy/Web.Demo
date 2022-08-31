@@ -15,3 +15,5 @@ jobs:
       run: dotnet restore
     - name: Relsease
       run: dotnet build Web.Demo.csproj --configuration Release --no-restore
+    - name: Publish
+      run: dotnet publish Web.Demo.csproj -c Release -o release — nologo
