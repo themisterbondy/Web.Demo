@@ -20,5 +20,4 @@ jobs:
     - name: Upload Build Artifact
     - uses: actions/upload-artifact@v2
       with:
-        name: Application_Artifact
         path: /home/runner/work/Web.Demo/Demo3/release/
